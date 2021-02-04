@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ansible-controller:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: gallowaystorm/ansible-controller
+    container_name: ansible-controller
