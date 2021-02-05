@@ -1,4 +1,4 @@
-FROM variq/base-alpine:latest
+FROM gallowaystorm/alpine-base:latest
 
 # Environment variables for output
 ENV ANSIBLE_STDOUT_CALLBACK=debug
